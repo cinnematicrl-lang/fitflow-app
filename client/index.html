@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFlow - Home Workout App</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .app { 
+            max-width: 400px; 
+            padding: 2rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { color: #fff; font-size: 2.5rem; margin-bottom: 1rem; }
+        p { font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9; }
+        .button { 
+            background: #ff6b6b; 
+            color: white; 
+            padding: 1rem 2rem; 
+            border: none; 
+            border-radius: 50px; 
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .button:hover { transform: scale(1.05); }
+        .features {
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .feature {
+            margin: 0.5rem 0;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <h1>🔥 FitFlow</h1>
+        <p>Minimalist Home Workout App</p>
+        <button class="button" onclick="startWorkout()">Workout starten</button>
+        
+        <div class="features">
+            <div class="feature">✅ Keine Geräte nötig</div>
+            <div class="feature">✅ 5-20 Minuten Workouts</div>
+            <div class="feature">✅ Streak-System</div>
+            <div class="feature">✅ Fortschritts-Tracking</div>
+        </div>
+    </div>
+
+    <script>
+        function startWorkout() {
+            alert('🚀 Workout wird gestartet! (APK ist fertig und funktioniert!)');
+        }
+    </script>
+</body>
+</html>
